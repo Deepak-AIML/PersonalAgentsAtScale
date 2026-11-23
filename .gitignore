@@ -1,0 +1,43 @@
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+token*.json
+secrets/
+
+# Personal data (never commit real data)
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json
